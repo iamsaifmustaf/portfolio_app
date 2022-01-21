@@ -20,7 +20,7 @@ const Header = () => (
         <a style={{ display: "flex", alignItems: "center", color: "white" , height: "40px"}}>
           {/* <DiChrome size="3rem" /> */}
           <a>
-            <img alt="Qries" src="/images/saifm.svg" width="150" height="70" />            
+            <img alt="saifm.dev" src="/images/saifm.svg" width="150" height="70" />            
           </a>
         </a>
       </Link>
