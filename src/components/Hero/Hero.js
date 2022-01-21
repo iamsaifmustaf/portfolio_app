@@ -16,16 +16,15 @@ const Hero = (props) => (
         <Typist>
           <SectionTitle main center>
             Hi there, <br />
-            <Typist.Delay ms={800} />
-            My name is Steve
-            <Typist.Backspace count={5} delay={1000} />
-            Saif
+            <Typist.Delay ms={600} />
+            My name is Saif
+            <Typist.Delay ms={400} />
           </SectionTitle>
-          <SectionText>
-            I am a freelance python developer specialized in data analysis and
-            machine learning.
-          </SectionText>
         </Typist>
+        <SectionText>
+          I am a freelance python developer specialized in data analysis and
+          machine learning.
+        </SectionText>
         {/* <Button onClick={props.handleClick}>Learn More</Button> */}
       </LeftSection>
     </Section>

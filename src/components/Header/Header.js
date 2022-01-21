@@ -10,18 +10,18 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span,
+  Logo,
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" }}>
-          <DiChrome size="3rem" />
-          <Span>
-            saifm.dev
-          </Span>
+        <a style={{ display: "flex", alignItems: "center", color: "white" , height: "40px"}}>
+          {/* <DiChrome size="3rem" /> */}
+          <a>
+            <img alt="Qries" src="/images/saifm.svg" width="150" height="70" />            
+          </a>
         </a>
       </Link>
     </Div1>
