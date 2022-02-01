@@ -10,18 +10,18 @@ const BackgroundAnimation = () => (
     >
       <defs>
         <linearGradient id="eyes-gradient" x1="50%" y1="0%" x2="50%" y2="100%">
-          <stop offset="0%" stop-color="#7A5FFF">
+          <stop offset="0%" stopColor="#7A5FFF">
             <animate
-              attributeName="stop-color"
+              attributeName="stopColor"
               values="#7A5FFF; #01FF89; #7A5FFF"
               dur="2s"
               repeatCount="indefinite"
             ></animate>
           </stop>
 
-          <stop offset="100%" stop-color="#01FF89">
+          <stop offset="100%" stopColor="#01FF89">
             <animate
-              attributeName="stop-color"
+              attributeName="stopColor"
               values="#01FF89; #7A5FFF; #01FF89"
               dur="2s"
               repeatCount="indefinite"

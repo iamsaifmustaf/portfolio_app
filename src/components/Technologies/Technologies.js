@@ -1,5 +1,6 @@
 import React from "react";
-import { DiFirebase, DiReact, DiZend } from "react-icons/di";
+import { DiFirebase, DiReact, DiZend, DiPython } from "react-icons/di";
+import {GoGraph} from "react-icons/go"
 import {
   Section,
   SectionDivider,
@@ -21,23 +22,35 @@ const Technologies = () => (
     <SectionTitle>Technologies</SectionTitle>
     <SectionText>
       I've worked with a range a technologies in both data analysis and web
-      development. From fullstack development to analysing data sets, running
+      development. My focus is on analysing data sets, running
       machine learning algorithms and generating visual interpretations.
     </SectionText>
     <List>
       <ListItem>
         <picture>
-          <DiReact size="3rem" />
+          <DiPython size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Front-End</ListTitle>
+          <ListTitle>Programming</ListTitle>
           <ListParagraph>
             Experiece with <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>Python</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>R</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>R Shiny</ExternalLinks>
+            <br />
+            <ExternalLinks>SciPy</ExternalLinks>
+            <br />
+            <ExternalLinks>NumPy</ExternalLinks>
+            <br />
+            <ExternalLinks>Tensorflow</ExternalLinks>
+            <br />
+            <ExternalLinks>SQL</ExternalLinks>
+            <br />
+            <ExternalLinks>JavaScript</ExternalLinks>
+            <br />
+            <ExternalLinks>Ruby on Rails</ExternalLinks>
             <br />
           </ListParagraph>
         </ListContainer>
@@ -47,82 +60,37 @@ const Technologies = () => (
           <DiFirebase size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>Back-End</ListTitle>
+          <ListTitle>Databases & Cloud Services</ListTitle>
           <ListParagraph>
             Experience with <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>AWS</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>GCP</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>MySQL</ExternalLinks>
+            <br />
+            <ExternalLinks>MongoDB</ExternalLinks>
             <br />{" "}
           </ListParagraph>
         </ListContainer>
       </ListItem>
       <ListItem>
         <picture>
-          <DiZend size="3rem" />
+          <GoGraph size="3rem" />
         </picture>
         <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
+          <ListTitle>Data Visualization</ListTitle>
           <ListParagraph>
             Experience with <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>Tableau</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>Looker</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />{" "}
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>PowerBI</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>Matplotlib</ExternalLinks>
             <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />{" "}
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />{" "}
-          </ListParagraph>
-        </ListContainer>
-      </ListItem>
-      <ListItem>
-        <picture>
-          <DiZend size="3rem" />
-        </picture>
-        <ListContainer>
-          <ListTitle>UI/UX</ListTitle>
-          <ListParagraph>
-            Experience with <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />
-            <ExternalLinks>React.js</ExternalLinks>
-            <br />
-            <ExternalLinks>React.js</ExternalLinks>
+            <ExternalLinks>ggplot2</ExternalLinks>
             <br />{" "}
           </ListParagraph>
         </ListContainer>

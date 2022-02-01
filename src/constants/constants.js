@@ -63,8 +63,8 @@ export const projects = [
 
 export const TimeLineData = [
   { year: 2017, text: 'Started my journey at George Brown College, Toronto', },
-  { year: 2019, text: 'Graduated from George Brown College', },
-  { year: 2020, text: 'Google Data Analytics Certificate - Coursera', },
-  { year: 2021, text: 'The Python Institute - PCEP Certified Entry-Level Python Programmer', },
+  { year: 2020, text: 'Graduated from George Brown College', },
+  { year: 2021, text: 'The Python Institute - PCAP Certified Associate Python Programmer', },
+  { year: 2022, text: 'Google Data Analytics Professional - Coursera', },
   { year: "Future", text: 'Limitless...', },
 ];

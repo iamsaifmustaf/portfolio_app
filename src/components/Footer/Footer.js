@@ -9,30 +9,30 @@ const Footer = () => {
     <FooterWrapper>
       <LinkList>
         <LinkColumn>
-          <LinkTitle>Call</LinkTitle>
-          <LinkItem href="tel:314-343-3432">314-343-3432</LinkItem>
+          <LinkTitle>Call or Whatsapp</LinkTitle>
+          <LinkItem href="https://wa.me/16472304449" target={"_blank"}>647-230-4449</LinkItem>
         </LinkColumn>
         <LinkColumn>
           <LinkTitle>Email</LinkTitle>
-          <LinkItem href="mailto:contact@jsmastery.com">
-            contact@jsmastery.com
+          <LinkItem href="mailto:work.sfmustaf@gmail.com">
+            work.sfmustaf@gmail.com
           </LinkItem>
         </LinkColumn>
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>Innovating one project at a time</Slogan>
+          <Slogan>“Not everything that counts can be counted, and not everything that can be counted counts.” - <i>Albert Einstein</i></Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://github.com/iamsaifmustaf" target={"_blank"}>
             <AiFillGithub size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          <SocialIcons href="https://www.linkedin.com/in/saifmdev/" target={"_blank"}>
             <AiFillLinkedin size="3rem" />
           </SocialIcons>
-          <SocialIcons href="https://google.com">
+          {/* <SocialIcons href="https://google.com" target={"_blank"}>
             <AiFillInstagram size="3rem" />
-          </SocialIcons>
+          </SocialIcons> */}
         </SocialContainer>
       </SocialIconsContainer>
     </FooterWrapper>

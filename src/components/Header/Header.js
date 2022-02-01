@@ -13,6 +13,8 @@ import {
   Logo,
 } from "./HeaderStyles";
 
+import {SocialContainer} from "../Footer/FooterStyles"
+
 const Header = () => (
   <Container>
     <Div1>
@@ -42,17 +44,17 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    <Div3>
-      <SocialIcons href="https://google.com">
+    <SocialContainer>
+      <SocialIcons href="https://github.com/iamsaifmustaf" target={"_blank"}>
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      <SocialIcons href="https://www.linkedin.com/in/saifmdev/" target={"_blank"}>
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://google.com">
+      {/* <SocialIcons href="https://google.com">
         <AiFillInstagram size="3rem" />
-      </SocialIcons>
-    </Div3>
+      </SocialIcons> */}
+    </SocialContainer>
   </Container>
 );
 
