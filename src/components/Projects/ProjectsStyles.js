@@ -9,7 +9,7 @@ export const Img = styled.img`
 
 export const StyledIcon = styled.img`
   width:100%;
-  height:25px;
+  height:60px;
   object-fit: cover;
 `
 
@@ -101,8 +101,8 @@ export const ExternalLinks = styled.a`
 color:#d4c0c0;
 font-size: 2rem;
 padding:1.2rem 3rem;
-background: #6b3030;
-border-radius: 15px;
+// background: #6b3030;
+ border-radius: 15px;
 transition: 0.5s;
 &:hover{
   background: #801414;
@@ -116,6 +116,15 @@ justify-content: space-around;
 padding: 2rem;
 `
 export const Tag = styled.li`
-color: #d8bfbf;
-font-size: 1.5rem;
+color:#d4c0c0;
+font-size: 1.3rem;
+padding:0.5rem 2rem;
+background: #6b3030;
+border-radius: 15px;
+transition: 0.5s;
+
+&:hover{
+  background: #801414;
+
+}
 `
