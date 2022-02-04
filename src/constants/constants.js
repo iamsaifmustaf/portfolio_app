@@ -51,12 +51,12 @@ export const projects = [
   },
   {
     title: 'ML - Robot Surface Predictor',
-    description: "Imagine you are a turtle, trying to cross the highway. Show your skills by safely and smoothly crossing the highway without letting any of the cars run you over. The more levels you pass, the faster the cars move. Use UP arrow to move.",
+    description: "Regression model to predict type of surface robot is walking on. K-folds cross-validation was used to evaluate and improve model accuracy.",
     image: '/images/road_surface.png',
     icon: '/images/icons/machine-learning.png',
     tags: ['NumPy', 'Pandas', 'sklearn', 'Seaborn'],
-    source: 'https://github.com/iamsaifmustaf/traffic_cross',
-    visit: 'https://replit.com/@SaifMustaf/trafficcross',
+    source: 'https://github.com/saifmdev/regression_robot_surface_predictor/blob/main/robot_surface_predictor.ipynb',
+    visit: 'https://colab.research.google.com/github/saifmdev/regression_robot_surface_predictor/blob/main/robot_surface_predictor.ipynb',
     id: 5,
   },
 ];
