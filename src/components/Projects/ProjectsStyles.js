@@ -5,6 +5,10 @@ export const Img = styled.img`
   height:100%;
   object-fit: cover;
   overflow: hidden;
+  @media only screen and (max-width: 801px) {
+    /* For mobile phones: */
+    height: calc(100% / 3);
+  }
 `
 
 export const StyledIcon = styled.img`
@@ -30,12 +34,13 @@ row-gap: 3rem;
 
 `
 export const BlogCard = styled.div`
-  border-radius: 10px;
+  border-radius: 50px;
   box-shadow: 3px 3px 20px rgba(80, 78, 78, 0.5);
   text-align: center;
   width: 400px;
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 100%;
+    height: 100%;
   }
 `;
 export const TitleContent = styled.div`
@@ -84,7 +89,8 @@ export const CardInfo = styled.p`
   text-align: justify;
   @media ${(props) => props.theme.breakpoints.sm} {
     padding:.3rem
-  
+    font-style: 1.5rem;
+    width: 100%;
 }
 `;
 

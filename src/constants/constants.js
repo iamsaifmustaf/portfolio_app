@@ -59,6 +59,16 @@ export const projects = [
     visit: 'https://colab.research.google.com/github/saifmdev/regression_robot_surface_predictor/blob/main/robot_surface_predictor.ipynb',
     id: 5,
   },
+  {
+    title: 'BI - Stock Market Scraper & Technical Analysis',
+    description: "Python Scraper that queries Yahoo Finance for latest market information for all NASDAQ tickers. For each ticker, market data is saved as .csv file on local drive. TA is applied on each Dataframe before it is exported as .csv",
+    image: '/images/stock.jpg',
+    icon: '/images/icons/finance.png',
+    tags: ['NumPy', 'Pandas', 'Plotly', 'ta'],
+    source: 'https://github.com/saifmdev/stock_scraper_ta/blob/main/stock_analysis.ipynb',
+    visit: 'https://colab.research.google.com/github/saifmdev/stock_scraper_ta/blob/main/stock_analysis.ipynb',
+    id: 6
+  }
 ];
 
 export const TimeLineData = [

@@ -1,8 +1,25 @@
-import React from 'react';
+import React from "react";
 
-import { BlogCard, CardInfo, ExternalLinks, GridContainer, HeaderThree, Hr, Tag, TagList, TitleContent, UtilityList, Img, StyledIcon } from './ProjectsStyles';
-import { Section, SectionDivider, SectionTitle } from '../../styles/GlobalComponents';
-import { projects } from '../../constants/constants';
+import {
+  BlogCard,
+  CardInfo,
+  ExternalLinks,
+  GridContainer,
+  HeaderThree,
+  Hr,
+  Tag,
+  TagList,
+  TitleContent,
+  UtilityList,
+  Img,
+  StyledIcon,
+} from "./ProjectsStyles";
+import {
+  Section,
+  SectionDivider,
+  SectionTitle,
+} from "../../styles/GlobalComponents";
+import { projects } from "../../constants/constants";
 
 const Projects = () => (
   <Section nopadding id="projects">
@@ -12,14 +29,14 @@ const Projects = () => (
       {projects.map((p, i) => {
         return (
           <BlogCard key={i}>
-          <Img src={p.image} />
+            <Img src={p.image} />
             <TitleContent>
               <HeaderThree title>{p.title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
-              <TitleContent >Stack</TitleContent>
+              <TitleContent>Stack</TitleContent>
               <TagList>
                 {p.tags.map((t, i) => {
                   return <Tag key={i}>{t}</Tag>;
@@ -27,9 +44,16 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={p.visit} target="_blank" ><StyledIcon src={p.icon}></StyledIcon></ExternalLinks>
+              <ExternalLinks href={p.visit} target="_blank">
+                <StyledIcon src={p.icon}></StyledIcon>
+              </ExternalLinks>
+              <ExternalLinks href={p.source} target="_blank">
+                <StyledIcon src={"/images/icons/github.png"}></StyledIcon>
+              </ExternalLinks>
               {/* <ExternalLinks href={p.visit} target="_blank" >Test</ExternalLinks> */}
-              <ExternalLinks href={p.source} target="_blank" ><StyledIcon src={'/images/icons/github.png'}></StyledIcon></ExternalLinks>
+              {/* <ExternalLinks href={p.source} target="_blank">
+                <StyledIcon src={"/images/icons/github.png"}></StyledIcon>
+              </ExternalLinks> */}
             </UtilityList>
           </BlogCard>
         );
