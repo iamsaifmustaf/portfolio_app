@@ -11,18 +11,29 @@ import {
   NavLink,
   SocialIcons,
   Logo,
+  SocialIconsContainer,
 } from "./HeaderStyles";
-
-import {SocialContainer} from "../Footer/FooterStyles"
 
 const Header = () => (
   <Container>
     <Div1>
       <Link href="/">
-        <a style={{ display: "flex", alignItems: "center", color: "white" , height: "40px"}}>
+        <a
+          style={{
+            display: "flex",
+            alignItems: "center",
+            color: "white",
+            height: "40px",
+          }}
+        >
           {/* <DiChrome size="3rem" /> */}
           <a>
-            <img alt="saifm.dev" src="/images/saifm.svg" width="150" height="70" />            
+            <img
+              alt="saifm.dev"
+              src="/images/saifm.svg"
+              width="150"
+              height="70"
+            />
           </a>
         </a>
       </Link>
@@ -44,17 +55,19 @@ const Header = () => (
         </Link>
       </li>
     </Div2>
-    <SocialContainer>
-      <SocialIcons href="https://github.com/iamsaifmustaf" target={"_blank"}>
-        <AiFillGithub size="3rem" />
-      </SocialIcons>
-      <SocialIcons href="https://www.linkedin.com/in/saifmdev/" target={"_blank"}>
-        <AiFillLinkedin size="3rem" />
-      </SocialIcons>
-      {/* <SocialIcons href="https://google.com">
-        <AiFillInstagram size="3rem" />
-      </SocialIcons> */}
-    </SocialContainer>
+    <Div3>
+      <SocialIconsContainer>
+        <SocialIcons href="https://github.com/iamsaifmustaf" target={"_blank"}>
+          <AiFillGithub size="3rem" />
+        </SocialIcons>
+        <SocialIcons
+          href="https://www.linkedin.com/in/saifmdev/"
+          target={"_blank"}
+        >
+          <AiFillLinkedin size="3rem" />
+        </SocialIcons>
+      </SocialIconsContainer>
+    </Div3>
   </Container>
 );
 
