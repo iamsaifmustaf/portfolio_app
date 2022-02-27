@@ -24,7 +24,7 @@ const Footer = () => {
           <Slogan>“Not everything that counts can be counted, and not everything that can be counted counts.” - <i>Albert Einstein</i></Slogan>
         </CompanyContainer>
         <SocialContainer>
-          <SocialIcons href="https://github.com/iamsaifmustaf" target={"_blank"}>
+          <SocialIcons href="https://github.com/saifmdev" target={"_blank"}>
             <AiFillGithub size="3rem" />
           </SocialIcons>
           <SocialIcons href="https://www.linkedin.com/in/saifmdev/" target={"_blank"}>
